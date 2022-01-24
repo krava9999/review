@@ -28,16 +28,16 @@
 }
 
 .appForm__heading {
-  font-family: calibri;
+  font-family: system-ui;
   font-size: 32px;
   font-weight: bold;
 }
 
 .appForm__prompt {
-  font-family: calibri;
+  font-family: system-ui;
   color: #718096;
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .appForm__data {
@@ -49,9 +49,9 @@
   border-radius: 5px;
   outline: none;
   padding: 10px 8px 0 10px;
-  font-weight: bolder;
-  font-family: calibri;
-  font-size: 18px;
+  font-weight: 500;
+  font-family: system-ui;
+  font-size: 16px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -71,33 +71,33 @@
 .appForm__data::-webkit-input-placeholder {
   color: #4a5568;
   font-weight: bold;
-  font-family: calibri;
+  font-family: system-ui;
   position: absolute;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .appForm__data:-ms-input-placeholder {
   color: #4a5568;
   font-weight: bold;
-  font-family: calibri;
+  font-family: system-ui;
   position: absolute;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .appForm__data::-ms-input-placeholder {
   color: #4a5568;
   font-weight: bold;
-  font-family: calibri;
+  font-family: system-ui;
   position: absolute;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .appForm__data::placeholder {
   color: #4a5568;
   font-weight: bold;
-  font-family: calibri;
+  font-family: system-ui;
   position: absolute;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .appForm__reset {
@@ -115,16 +115,18 @@
 }
 
 .appForm__labelPass {
-  font-family: sans-serif;
+  font-family: system-ui;
   font-size: 16px;
   margin-left: 5px;
+  font-weight: 500;
 }
 
 .appForm__helpPass {
   margin-left: auto;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: system-ui;
   color: #5a67d8;
+  font-weight: 500;
 }
 
 .appForm__helpPass:hover {
@@ -133,7 +135,7 @@
 
 .appForm__signIn {
   font-family: calibri;
-  font-weight: bold;
+  font-weight: 600;
   background-color: #805bd5;
   color: #FFF;
   text-decoration: none;

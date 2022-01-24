@@ -1,4 +1,5 @@
-$FontProject: calibri;
+$FontProject: system-ui;
+
 
 
 .app {
@@ -29,7 +30,7 @@ $FontProject: calibri;
         font-family: $FontProject;
         color: #718096;
         font-size: 21px;
-        font-weight: bold;
+        font-weight: 600;
     }
 
     &__data {
@@ -41,9 +42,9 @@ $FontProject: calibri;
         border-radius: 5px;
         outline: none;
         padding: 10px 8px 0 10px;
-        font-weight: bolder;
+        font-weight: 500;
         font-family: $FontProject;
-        font-size: 18px;
+        font-size: 16px;
         transition: 0.5s;
 
         &:hover {
@@ -60,7 +61,8 @@ $FontProject: calibri;
             font-weight: bold;
             font-family: $FontProject;
             position: absolute;
-            font-size: 18px;
+            font-size: 16px;
+
         }
     }
 
@@ -76,16 +78,18 @@ $FontProject: calibri;
     }
 
     &__labelPass {
-        font-family: sans-serif;
+        font-family: $FontProject;
         font-size: 16px;
         margin-left: 5px;
+        font-weight: 500;
     }
 
     &__helpPass {
         margin-left: auto;
         text-decoration: none;
-        font-family: sans-serif;
+        font-family: $FontProject;
         color: #5a67d8;
+        font-weight: 500;
 
         &:hover {
             color: #3e4dd4;
@@ -94,8 +98,8 @@ $FontProject: calibri;
     }
 
     &__signIn {
-        font-family: $FontProject;
-        font-weight: bold;
+        font-family: calibri;
+        font-weight: 600;
         background-color: #805bd5;
         color: #FFF;
         text-decoration: none;
@@ -110,6 +114,5 @@ $FontProject: calibri;
             transition: 0.5s;
         }
 
-        &:active {}
     }
 }
