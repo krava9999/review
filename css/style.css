@@ -157,6 +157,8 @@
 @media (max-width: 1023px) {
   .appForm {
     width: 400px;
+    padding: 45px 45px;
+    gap: 25px;
   }
   .appForm__heading {
     font-size: 28px;
@@ -177,6 +179,8 @@
 @media (max-width: 767px) {
   .appForm {
     width: 300px;
+    gap: 20px;
+    padding: 25px;
   }
   .appForm__heading {
     font-size: 21px;
@@ -185,11 +189,10 @@
     font-size: 14px;
   }
   .appForm__data {
-    height: 35px;
+    height: 25px;
     border-bottom: 3px solid #e2e8f0;
     padding: 6px 4px 0 6px;
     font-size: 14px;
-    font-weight: 300;
   }
   .appForm__data:hover {
     -webkit-box-shadow: 0px 3px 6px 0px rgba(4, 60, 80, 0.2);

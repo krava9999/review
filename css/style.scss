@@ -121,6 +121,8 @@ $mobileFontSize: 14px;
 @media (max-width:1023px) {
     .appForm {
         width: 400px;
+        padding: 45px 45px;
+        gap: 25px;
 
         &__heading {
             font-size: 28px;
@@ -147,21 +149,22 @@ $mobileFontSize: 14px;
 @media (max-width:767px) {
     .appForm {
         width: 300px;
+        gap: 20px;
+        padding: 25px;
 
         &__heading {
             font-size: 21px;
         }
 
         &__prompt {
-            font-size: 14px;
+            font-size: $mobileFontSize;
         }
 
         &__data {
-            height: 35px;
+            height: 25px;
             border-bottom: 3px solid #e2e8f0;
             padding: 6px 4px 0 6px;
-            font-size: 14px;
-            font-weight: 300;
+            font-size: $mobileFontSize;
 
             &:hover {
                 box-shadow: 0px 3px 6px 0px rgba(4, 60, 80, 0.2);
@@ -172,7 +175,7 @@ $mobileFontSize: 14px;
             }
 
             &::placeholder {
-                font-size: 14px;
+                font-size: $mobileFontSize;
 
             }
         }
@@ -185,13 +188,13 @@ $mobileFontSize: 14px;
         }
 
         &__labelPass {
-            font-size: 14px;
+            font-size: $mobileFontSize;
             margin-left: 5px;
             font-weight: 500;
         }
 
         &__helpPass {
-            font-size: 14px;
+            font-size: $mobileFontSize;
         }
 
         &__signIn {
